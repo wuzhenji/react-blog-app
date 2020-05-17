@@ -2,7 +2,13 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
   mock: false,
-  nodeModulesTransform: {
+  hash: true,
+  history: {
+    type: 'hash',
+  },
+  // base: '',
+  publicPath: './',
+  nodeModulesTransform: {  
     type: 'none',
   },
   routes: [
