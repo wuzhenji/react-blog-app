@@ -3,11 +3,11 @@ import { defineConfig } from 'umi';
 export default defineConfig({
   mock: false,
   hash: true,
-  history: {
-    type: 'hash',
-  },
+  //history: {
+   //  type: 'hash',
+  //},
   // base: '',
-  publicPath: './',
+  publicPath: '/',
   nodeModulesTransform: {  
     type: 'none',
   },
