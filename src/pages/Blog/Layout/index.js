@@ -15,7 +15,7 @@ class BlogLayout extends React.Component {
                         {children}
                     </div>
                     <div className="foot">
-                        <div className="logo">©2020 wuzhenji 苏公网安备 37050202370827号</div>
+                        <div className="logo">©2020 wuzhenji 苏ICP备20026445号</div>
                     </div>
                 </div>
             </div>
