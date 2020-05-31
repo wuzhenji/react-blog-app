@@ -7,6 +7,13 @@ export async function getBlogListAPI(data) { // 获得博客列表
     });
 }
 
+export async function addBlogAPI(data) { // 添加blog
+    return request('/blog', {
+        method: 'POST',
+        data: data
+    })
+}
+
 export async function getBlogTagAPI() { // 获得标签列表
     return request('/blogtag', {
         method: 'GET',
