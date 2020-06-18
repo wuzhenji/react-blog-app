@@ -105,9 +105,6 @@ class AddBlog extends React.Component {
                             </Button>
                     </Form.Item>
                 </Form>
-                    <Button onClick={this.resetForm} htmlType="submit">
-                        reset
-                            </Button>
             </div>
         )
     }
